@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio Mariano</title>
+    <!-- iconos bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- iconos bootstrap -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header class="header">
+     <!-- Navbar -->
+      <nav class="navbar navbar-expand-md custom-navbar fixed-top d-flex"  data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: white;"><img src="../img/image.png" alt="fotoMia" class="logo rounded-circle"> Mariano Coronel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: white;" ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" href="#acercaDeMi">Acerca de mi</a>
+              <a class="nav-link active" href="#proyectos">Proyectos</a>
+              <a class="nav-link active" href="#habilidades">Habilidades</a>
+              <a class="nav-link active" href="#footer">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+    </header>
+<main>
+    <section id="acercaDeMi">
+        <div class="contenedorAcercaDeMi">
+        <i class="bi bi-file-person-fill"><svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="black" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+        <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11"/></svg></i><h2 style="font-weight: bold;">Acerca de mi</h2>
+        </div>
+        <p class="text-center">Soy estudiante de la Universidad Nacional del Sur en Bahía Blanca, Argentina, donde me encuentro en constante aprendizaje y desarrollo académico. Además, estoy cursando la carrera de Full Stack en CoderHouse, donde me especializo en la creación y desarrollo de aplicaciones web. Actualmente, estoy enfocado en aprender y perfeccionar mis habilidades en JavaScript, Java, HTML, CSS y Bootstrap, con el objetivo de convertirme en un desarrollador completo y versátil.</p>
+    </section>
+    <section id="proyectos">
+      <h2 class="titulo-proyectos"><img src="../img/collection.svg" alt="Libreria"  width="30px">Proyectos</h2>
+      <div class="contenedor-cards">
+        <div class="card">
+          <h3>Proyecto Calculadora (Curso js)</h3>
+          <img src="../img/Captura de pantalla 2024-08-13 162938.png" alt="Captura de una calculadora">
+          <div class="contenido-cards">
+            <p>Este Proyecto que estoy desarrolando en mi curso de javaScript en coderHouse,que coinsiste en una calculadora funcional con todos sus operadores incluidos.</p>
+            <a href="https://marianocoronel87.github.io/ProyectoJs/" target="_blank">Ver aqui</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Proyecto de Expendedora (Universidad)</h3>
+          <img src="../img/MaquinaExpendedora2.png" alt="Expendedora de cafeGui">
+          <div class="contenido-cards">
+            <p>Proyecto que hice en la materia de introduccion a la programacion orientada a objetos de un dispenser de cafe en la universidad.</p>
+            <a href="#" target="_blank">Ver aqui</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="habilidades">
+      <h2 class="text-center" style="font-weight: bold;">Habilidades</h2>
+      <div class="container text-center">
+        <div class="row">
+              <div class="col-12 col-md-6" >
+                  <h2>Backend</h2>
+                <p>JavaScript,Java, Git, GitHub</p>
+                  <img src="../img/java-icon.svg" alt="">
+                  <img src="../img/logoJavaScript.svg" alt="">
+                  <img src="../img/github.svg" alt="">
+              </div>
+              <div class="col-12 col-md-6" >
+                  <h2>Frontend</h2>
+                  <p>HTML, CSS, Bootstrap, JavaScript</p>
+                    <img src="../img/logoHTML.svg" alt="Html">
+                    <img src="../img/logoCss.svg" alt="Css">
+                    <img src="../img/bootstrap.svg" alt="bootstrap" style="background-color: white;">
+              </div>
+        </div>
+      </div>
+    </section>
+</main>
+    <footer id="footer">
+        <section class="contacto">
+        <ul class="ul-footer d-flex justify-content-center gap-3 list-unstyled m-0">
+          <li><a href="mailto:marianocoronel947@gmail.com">Contacto</a></li>
+          <li><p>Derechos reservados</p></li>
+        </ul>
+        </section>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

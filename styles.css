@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+}
+/* Estilos Generales */
+a {
+    color: #007bff;
+}
+a:hover {
+    color: #0056b3;
+}
+.custom-navbar{
+    background-color: #003366;
+}
+.custom-navbar .navbar-brand, 
+.custom-navbar .navbar-nav .nav-link {
+    color: white;
+}
+.custom-navbar .navbar-brand:hover,
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #ff5722; 
+}
+.accent-text {
+    color: #ff5722;
+}
+body{
+    background-color: #f4f4f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 5rem;
+}
+/* Estilos Especificos */
+/* Acerca de mi  */
+#acercaDeMi{
+    margin-bottom: 1rem;
+   
+}
+.contenedorAcercaDeMi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+.header{
+    padding-top: 4.5rem;
+}
+/* Proyectos */
+.titulo-proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.contenedor-cards{
+    display: flex;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease-in-out;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 310px;
+}
+.card .contenido-cards{
+    text-align: center;
+    padding: 15px;
+    margin-top: 3px;
+}
+.card .contenido-cards p{
+    line-height: 1.5;
+}
+.card .contenido-cards a{
+    color: #007bff;   
+    text-decoration: none; 
+    padding: 5px 10px;  
+    border-radius: 4px; 
+    transition: background-color 0.3s, color 0.3s;  
+}
+.card .contenido-cards a:hover{
+    background-color: rgba(0, 123, 255, 0.1); 
+    color:#ff5722;
+}
+/* HABILIDADES */
+#habilidades{
+    padding: 40px;
+}
+#habilidades .row div{
+    height: 250px;
+    border: 3px solid black;
+    font-weight: bold;
+    
+}
+#habilidades .row img{
+    width: 6rem;
+    margin-top: 2rem;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Contacto */
+#footer {
+    width: 100%;
+    background-color: #f8f9fa; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.ul-footer a {
+    text-decoration: none; 
+    color: #007bff; 
+}
+.ul-footer a:hover {
+    text-decoration: underline; 
+}
+.ul-footer p {
+    margin-bottom: 0; 
+}
+.contacto{
+    padding: 10rem auto;
+}
+@media screen and (max-width:766px){
+    .navbar-brand{
+        display: none;
+    }
+}
+@media screen and (min-width:766px){
+    #habilidades .row img{
+        width: 5rem;
+        margin-top: 2rem;
+    }
+}
+
