@@ -152,4 +152,9 @@ section {
         margin-top: 2rem;
     }
 }
+@media screen and (max-width:447px){
+   #habilidades .row img{
+     width: 2.5rem;
+   }
+}
 
